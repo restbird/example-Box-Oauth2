@@ -1,0 +1,18 @@
+{
+    "id": "1536363023",
+    "time": "2018-09-07T23:30:23.396903413Z",
+    "timestr": "2018-9-7 23:30:23",
+    "starttime": "2018-09-07T23:30:24.754870728Z",
+    "env": "Box",
+    "restcase": "Box/OAuth2-GoLang",
+    "apis": [
+        "api1"
+    ],
+    "status": 1,
+    "duration": 1.839870838,
+    "type": "",
+    "apinums": 0,
+    "failreqs": 0,
+    "invalreqs": 0,
+    "totalreqs": 1
+}

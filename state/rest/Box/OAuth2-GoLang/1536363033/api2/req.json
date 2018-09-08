@@ -1,0 +1,132 @@
+{
+    "apiid": "api2",
+    "type": 0,
+    "request": {
+        "method": "POST",
+        "url": "https://api.box.com/oauth2/token",
+        "describ": "",
+        "followredirect": false,
+        "auth": {
+            "method": "",
+            "user": "",
+            "password": ""
+        },
+        "header": [
+            {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded",
+                "disabled": false
+            },
+            {
+                "key": "Content-Length",
+                "value": "193",
+                "disabled": false
+            }
+        ],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": [
+                {
+                    "key": "grant_type",
+                    "value": "refresh_token",
+                    "disabled": false
+                },
+                {
+                    "key": "client_id",
+                    "value": "whqlh2vs9zta82rbc2f865k8mqawryhm",
+                    "disabled": false
+                },
+                {
+                    "key": "client_secret",
+                    "value": "INzfdPeFAvPEUgbEW6rM4hmqdYGlWwdx",
+                    "disabled": false
+                },
+                {
+                    "key": "refresh_token",
+                    "value": "UTxefSjMoFIKweKdmsgcp5srVl80LGuz1WP2iggTUPCOJx8Wcyg76TmK6CKfgZzb",
+                    "disabled": false
+                }
+            ]
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [
+            {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+            },
+            {
+                "key": "Cache-Control",
+                "value": "no-store",
+                "disabled": false
+            },
+            {
+                "key": "Strict-Transport-Security",
+                "value": "max-age=31536000",
+                "disabled": false
+            },
+            {
+                "key": "Vary",
+                "value": "Accept-Encoding",
+                "disabled": false
+            },
+            {
+                "key": "Age",
+                "value": "0",
+                "disabled": false
+            },
+            {
+                "key": "Date",
+                "value": "Fri, 07 Sep 2018 23:30:34 GMT",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "box_visitor_id=5b930a1a9a9164.54519534; expires=Sat, 07-Sep-2019 23:30:34 GMT; Max-Age=31536000; path=/; domain=.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "bv=OPS-42552; expires=Fri, 14-Sep-2018 23:30:34 GMT; Max-Age=604800; path=/; domain=.app.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "cn=62; expires=Sat, 07-Sep-2019 23:30:34 GMT; Max-Age=31536000; path=/; domain=.app.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "site_preference=desktop; path=/; domain=.box.com; secure",
+                "disabled": false
+            }
+        ],
+        "cookie": null,
+        "body": {
+            "type": "",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": true,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0.437636433,
+        "connduration": 0.077375678,
+        "dnsduration": 0.051625616,
+        "reqduration": 0.000049128,
+        "resduration": 0.000122454,
+        "delayduration": 0
+    },
+    "status": 1
+}

@@ -1,0 +1,132 @@
+{
+    "apiid": "api1",
+    "type": 0,
+    "request": {
+        "method": "POST",
+        "url": "https://api.box.com/oauth2/token",
+        "describ": "",
+        "followredirect": false,
+        "auth": {
+            "method": "",
+            "user": "",
+            "password": ""
+        },
+        "header": [
+            {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded",
+                "disabled": false
+            },
+            {
+                "key": "Content-Length",
+                "value": "157",
+                "disabled": false
+            }
+        ],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": [
+                {
+                    "key": "grant_type",
+                    "value": "authorization_code",
+                    "disabled": false
+                },
+                {
+                    "key": "client_id",
+                    "value": "whqlh2vs9zta82rbc2f865k8mqawryhm",
+                    "disabled": false
+                },
+                {
+                    "key": "client_secret",
+                    "value": "INzfdPeFAvPEUgbEW6rM4hmqdYGlWwdx",
+                    "disabled": false
+                },
+                {
+                    "key": "code",
+                    "value": "CtAy1Y7Z1EvDaqS7yflWcO7tFuTpYMEQ",
+                    "disabled": false
+                }
+            ]
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [
+            {
+                "key": "Date",
+                "value": "Fri, 07 Sep 2018 23:30:25 GMT",
+                "disabled": false
+            },
+            {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "box_visitor_id=5b930a10d757d1.86112914; expires=Sat, 07-Sep-2019 23:30:24 GMT; Max-Age=31536000; path=/; domain=.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "bv=OPS-42552; expires=Fri, 14-Sep-2018 23:30:24 GMT; Max-Age=604800; path=/; domain=.app.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "cn=41; expires=Sat, 07-Sep-2019 23:30:24 GMT; Max-Age=31536000; path=/; domain=.app.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "site_preference=desktop; path=/; domain=.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Age",
+                "value": "1",
+                "disabled": false
+            },
+            {
+                "key": "Cache-Control",
+                "value": "no-store",
+                "disabled": false
+            },
+            {
+                "key": "Strict-Transport-Security",
+                "value": "max-age=31536000",
+                "disabled": false
+            },
+            {
+                "key": "Vary",
+                "value": "Accept-Encoding",
+                "disabled": false
+            }
+        ],
+        "cookie": null,
+        "body": {
+            "type": "",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": true,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0.465001066,
+        "connduration": 0.103423456,
+        "dnsduration": 0.030982,
+        "reqduration": 0.000094699,
+        "resduration": 0.00037982,
+        "delayduration": 0
+    },
+    "status": 1
+}

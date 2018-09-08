@@ -1,0 +1,167 @@
+
+ <!DOCTYPE html><html lang="en-US"><head><title>Customer Log In</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />        <link rel="stylesheet" href="https://cdn01.boxcdn.net/_assets/css/section_templ_webviews_login_oauth_login-sR0zL9.css"/> <link rel="stylesheet" href="https://cdn01.boxcdn.net/_assets/css/section_templ_webviews_login_login-P5F6GM.css"/> <link rel="stylesheet" href="https://cdn01.boxcdn.net/_assets/css/webviews/webviews_image_ios-_ORMpz.css"/>  <script type="text/javascript">var request_token = '25de4ae17bd9a858e264f97a62e3ac8915ed3ebe4bf9e8b6af8bec0844358df9'; var site_root = '/';</script></head><!--[if IE 7]><body class="ie ie7 lte_ie9 lte_ie8 body device_" data-device=""><![endif]--><!--[if IE 8]><body class="ie ie8 lte_ie9 lte_ie8 body device_" data-device=""><![endif]--><!--[if IE 9]><body class="ie ie9 lte_ie9 body device_" data-device=""><![endif]--><!--[if gt IE 9]><body class="ie body device_" data-device=""><![endif]--><!--[if !IE]><!--><body class="body device_" data-device=""><!--<![endif]-->  
+
+
+
+<div class="header_wrapper">
+
+    
+    <img alt="Box Logo"
+         class="box_logo"
+         src="https://cdn01.boxcdn.net/_assets/img/new_box_logo-t7VwmA.png" />
+</div>
+
+<div class="service_logo_container">
+    <div class="float_content_centered_outer_container">
+        <div class="float_content_centered_inner_container">
+            <div class="service_logo_inner_container">
+                <img class="service_logo" src="https://cdn01.boxcdn.net/_assets/img/apps/app-icon-100x100-SwaG2o.png"
+                    
+                    
+                    alt="Logo for restbird_app"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content_wrapper oauth login_wrapper">
+	<div class="inner_content_wrapper center center_contents">
+		
+		
+		<h2 class="strong content_title mbl mtn clearfix">Log in to grant access to Box</h2>
+
+		
+ 
+    <div class="fw webview webview_login app_form small_app_form  oauth  "> <div class="header center_contents"><div class="section branding_section center"><div class="container logo_container"><div class="signup_login_box_logo center"></div></div></div></div><div class="content"><div class="section form_section center"><div class="container form_container login_form_container center">
+<form class="form login_form" action="https://account.box.com/api/oauth2/authorize?client_id=whqlh2vs9zta82rbc2f865k8mqawryhm&amp;redirect_uri=https%3A%2F%2Flocalhost&amp;response_type=code&amp;state=BOX" method="post" name="login_form">
+	
+
+      <ul class="container error_container basic_list basic_list_sm hidden"><li class="data plm warning ram pas man"><div class="media pvs"><div class="img icon"><div class="sprite_signup_login_icon_error"></div></div><div class="bd"></div></div></li></ul>
+
+	<div class="field_set login_fields fw center">
+		
+
+
+ <div class="login_user_inputs"><label for="login" class="field_label user_login_field">Email Address</label><div class="user_login_field text_input_with_sprite text_input_with_sprite_16x16 mbm"><input id="login" class="text_input login_email ram field_element " name="login" type="email" title="Email Address" placeholder="Email Address" value=""> <label class="icon" for="login" title="Email Address"></label></div><label for="password" class="field_label user_password_field">Password</label><div class="user_password_field text_input_with_sprite text_input_with_sprite_16x16 mbm"> <input id="password" class="text_input login_password ram field_element" name="password" title="Password" placeholder="Password" type="password" autocapitalize="off" autocomplete="off" autocorrect="off"> <label class="icon" for="password" title="Password"></label></div> </div> <div class="login_submit_div"><input class="btn btn-primary mhn login_submit fw pvm ram" title="Authorize" value="Authorize" type="submit" name="login_submit"></div>   <input type="hidden" name="dologin" value="1" />  <input type="hidden" name="client_id" value="whqlh2vs9zta82rbc2f865k8mqawryhm" /><input type="hidden" name="response_type" value="code" /><input type="hidden" name="redirect_uri" value="https://localhost" /><input type="hidden" name="scope" value="root_readwrite manage_groups manage_webhook manage_enterprise_properties manage_data_retention manage_app_users manage_managed_users" /><input type="hidden" name="folder_id" value="" /><input type="hidden" name="file_id" value="" /> <input type="hidden" name="state" value="BOX" />  <input type="hidden" name="reg_step" value="" /><input type="hidden" name="submit1" value="1" /><input type="hidden" name="folder" value="" /><input type="hidden" name="login_or_register_mode" value="login" /><input type="hidden" name="new_login_or_register_mode" value="" /><input type="hidden" name="__login" value="1"><input type="hidden" name="redirect_url" value="/api/oauth2/authorize?client_id=whqlh2vs9zta82rbc2f865k8mqawryhm&amp;redirect_uri=https%3A%2F%2Flocalhost&amp;response_type=code&amp;state=BOX"><input type="hidden" name="request_token" value="25de4ae17bd9a858e264f97a62e3ac8915ed3ebe4bf9e8b6af8bec0844358df9">     <input type="hidden" id="_pw_sql" name="_pw_sql" value=""/> 
+
+	</div>
+    <div class="sso_switch option_sso mts pvs phm hidden">
+        
+        <a href='#' class="sso_on" role="button" tabindex="0">Use Single Sign On (SSO)</a>
+        
+        <a href="#" class="sso_off" tabindex="0">Use Box account credentials</a>
+    </div>
+</form>
+</div> <div class="container options_container center">
+
+<ul class="basic_list basic_list_med option_list data">
+	<li class="option_sso">
+		<div class="media option">
+			<a class="option_text" href="#">
+				<span class="img login-icon mrs ram use-company-credentials-icon"></span>
+				<span class="bd">
+					
+					<span class="sso_on">Use Single Sign On (SSO)</span>
+					<span class="sso_off">Use Box account credentials</span>
+				</span>
+			</a>
+		</div>
+	</li>
+	<li class="option_password_reset">
+		<div class="media option">
+			<a class="option_text" href="https://account.box.com/webviews/password_reset/oauth">
+				<span class="img login-icon mrs ram help-icon"></span>
+				<span class="bd">Can't access your account?</span>
+			</a>
+		</div>
+	</li>
+	<li class="option_signup">
+		<div class="media option">
+			<a class="option_text" href="https://account.box.com/webviews/signup/oauth">
+				<span class="img login-icon mrs ram sign-up-icon"></span>
+				<span class="bd">Sign up for a Box account</span>
+			</a>
+		</div>
+	</li>
+</ul>
+</div></div></div></div>  
+
+
+		<div class="additional_options">
+			<div class="mvs">
+				<a href="https://account.box.com/webviews/oauth/reset_password">Forgot password</a>
+			</div>
+		</div>
+
+		
+ <div class="signup-terms-container center mvm">            By granting restbird_app access to Box, you are agreeing to Box's  <a href="/legal_text/tos" target="_blank">Terms of Service</a> and  <a href="/legal_text/privacy_policy" target="_blank">Privacy Policy</a>.</div>
+
+
+	</div>
+</div>
+
+
+<div class="footer">
+	&copy;2018 Box
+</div>
+
+  <script type="text/javascript" src="https://cdn01.boxcdn.net/_assets/js/vendor/intl/dist/Intl.min--nNpyW.js"></script><script type="text/javascript" src="https://cdn01.boxcdn.net/_assets/js/vendor/intl/locale-data/jsonp/en-US-M2Lw4q.js"></script>     <script type="text/javascript" src="https://cdn01.boxcdn.net/_assets/js/section_templ_webviews_login_login-9ktVFq.js"></script>    <script>
+
+
+(function() {
+
+
+	window.Box = window.Box || {};
+
+	
+	
+	window.initialConfig = null || {};
+	window.initialConfig.debug = 0;
+	window.initialConfig.browser_is_old = 1;
+	
+	
+	
+	window.initialConfig.initialJSHashes = ["Z7FrE","QxAcn","wsz8k","ch77x","TXwG1","1og2L","814jR","h7xMq","moLuV","LCoqx","CJhaJ","of7Sp","D5Aw2","E2AL4","5P8t2","upa2L","m1Nnh","5c4B5","oZc6P","EMjkd","cEKo8"];
+	
+	window.initialConfig.initialCSSHashes = ["iMVyy","F5PHY","LVtBB","f4Wc3","QXN1V","zdENB","SYHgU","CpRtm","JWAZW","iMVyy","F5PHY","QXN1V","zdENB","SYHgU","CpRtm","JWAZW","XCrUL","pyJKg","RW6dC","LVtBB","TsZ4M","MXgFM","krw4m","WvC5c","W8HTR","wvuQo"];
+
+	
+	window.initialConfig.cookieDomain = '.account.box.com';
+	window.initialConfig.cookieRootDomain = '.box.com';
+
+	
+	
+	window.initialConfig.vitalOpenboxActions = null;
+
+	window.initialConfig.useConnectionDiagnosticsMirror = false;
+
+	
+  window.initialConfig.adobeEnv = null;
+
+  
+  window.initialConfig.emitTranslationTags = 0;
+
+	
+	window.initialConfig.datacenterTag = 've';
+
+	
+	window.initialConfig.isBoxEditAllowed = 0;
+	
+	window.initialConfig.isBoxEditFallbackEnabled = 0;
+	window.initialConfig.useUnSecureUrlForComServer = 0;
+	
+	window.initialConfig.isOfficeOnlineAllowed = 0;
+	window.initialConfig.isMSEdgeSupportForBoxEditEnabled = 0;
+
+	
+	window.initialConfig.showResinTagTracker = 0;
+	window.initialConfig.locale = '';
+
+	window.Box.config = window.initialConfig; // Shim for Amsterdam code
+
+
+})();
+
+</script></body></html>

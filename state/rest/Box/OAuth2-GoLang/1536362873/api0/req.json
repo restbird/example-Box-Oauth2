@@ -1,0 +1,115 @@
+{
+    "apiid": "api0",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "https://account.box.com/api/oauth2/authorize?client_id=whqlh2vs9zta82rbc2f865k8mqawryhm\u0026redirect_uri=https%3A%2F%2Flocalhost\u0026response_type=code\u0026state=BOX",
+        "describ": "",
+        "followredirect": false,
+        "auth": {
+            "method": "",
+            "user": "",
+            "password": ""
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [
+            {
+                "key": "Date",
+                "value": "Fri, 07 Sep 2018 23:27:55 GMT",
+                "disabled": false
+            },
+            {
+                "key": "Expires",
+                "value": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "z=msj1bh0vf6l69vs4phb5kv7gi0; path=/; domain=.account.box.com; secure; httponly",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "box_visitor_id=5b93097b70eba7.22522572; expires=Sat, 07-Sep-2019 23:27:55 GMT; Max-Age=31536000; path=/; domain=.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "bv=OPS-42552; expires=Fri, 14-Sep-2018 23:27:55 GMT; Max-Age=604800; path=/; domain=.account.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "cn=47; expires=Sat, 07-Sep-2019 23:27:55 GMT; Max-Age=31536000; path=/; domain=.account.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Set-Cookie",
+                "value": "site_preference=desktop; path=/; domain=.box.com; secure",
+                "disabled": false
+            },
+            {
+                "key": "Content-Type",
+                "value": "text/html; charset=UTF-8",
+                "disabled": false
+            },
+            {
+                "key": "Pragma",
+                "value": "no-cache",
+                "disabled": false
+            },
+            {
+                "key": "Strict-Transport-Security",
+                "value": "max-age=31536000",
+                "disabled": false
+            },
+            {
+                "key": "Age",
+                "value": "0",
+                "disabled": false
+            },
+            {
+                "key": "Cache-Control",
+                "value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+                "disabled": false
+            },
+            {
+                "key": "Vary",
+                "value": "Accept-Encoding",
+                "disabled": false
+            }
+        ],
+        "cookie": null,
+        "body": {
+            "type": "",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": true,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0.240913247,
+        "connduration": 0.123323038,
+        "dnsduration": 0.050714967,
+        "reqduration": 0.000083169,
+        "resduration": 0.000260321,
+        "delayduration": 0
+    },
+    "status": 1
+}
