@@ -11,6 +11,8 @@ docker pull restbird/rest
 docker run -ti -p {host-port}:8080 -v {path-to-project}:/data/restbird restbird/rest
 ~~~
 
+The default user credential for Restbird is admin/admin
+
 The Box account used in this exampe is demo@restbird.com/DemoRestbird123!
 
 You can definitely use your own Box account, modify the client_id and client_secret in "Box" environment.
