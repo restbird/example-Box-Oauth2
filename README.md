@@ -3,10 +3,12 @@ This is the example repository for demo how to automatiocally retrieve OAuth 2.0
 To use this repo
 * Download Restbird docker
 ~~~
+docker pull restbird/rest
 ~~~
 
 * Run Restbird docker with this repo 
 ~~~
+docker run -ti -p {host-port}:8080 -v {path-to-project}:/data/restbird restbird/rest
 ~~~
 
 The Box account used in this exampe is demo@restbird.com/DemoRestbird123!
