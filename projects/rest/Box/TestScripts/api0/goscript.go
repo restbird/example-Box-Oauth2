@@ -1,6 +1,6 @@
 package api
 import "callapi"
-//import "time"
+import "time"
 import "fmt"
 import api0 "restbird/Box/File/api0" 
 import api1 "restbird/Box/File/api1"
@@ -36,7 +36,8 @@ func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) bool{
     
      fmt.Println(folder_id)
      
-    //  fmt.Println("Sleeping for 60 seconds...")
-    //  time.Sleep(60 * time.Second)
+      fmt.Println("Sleeping for 30 seconds...")
+      time.Sleep(30 * time.Second)
+      fmt.Println("wakeup")
      return true
 }
