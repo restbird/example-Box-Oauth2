@@ -1,7 +1,7 @@
 {
     "name": "RefreshBoxToken",
     "status": 1,
-    "autostart": false,
+    "autostart": true,
     "descrip": "Refresh token for Box OAuth2 with GoLang",
     "lang": 0
 }
