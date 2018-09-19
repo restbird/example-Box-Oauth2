@@ -9,7 +9,7 @@ type CallBack struct {}
 
 func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) bool{
     var folder_id = ""
-    ctx.SetVars("folder_name", "Demo6")
+    ctx.SetVars("folder_name", "Demo7")
     ctx.SetVars("folder_id", "")
     
     reterr, retbool,retMsg := callapi.DoHttpRequest("Box/File", "api0", api0.CallBack{},  ctx)
@@ -36,6 +36,7 @@ func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) bool{
     
      fmt.Println(folder_id)
      
+     //Add sleep to mimick a long test case
       fmt.Println("Sleeping for 30 seconds...")
       time.Sleep(30 * time.Second)
       fmt.Println("wakeup")
