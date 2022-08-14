@@ -2,7 +2,7 @@ This is the example repository for demo how to automatiocally retrieve OAuth 2.0
 
 To use this repo
 
-* Download Restbird docker
+* Download Restbird docker3
 
 ~~~
 docker pull restbird/rest
